@@ -1,0 +1,77 @@
+<html>
+<head>
+
+
+</head>
+
+<body>
+  <h1 class="text-primary"><strong>I WANT TO HELP</strong></h1>
+  
+<form action="" method="POST">
+  <div name="time">
+    <button name="button" class="btn btn-primary btn-responsive donatebutton">Donate NOW</button>
+    <button name="button" class="btn btn-warning btn-responsive pledgebutton" href="##this should lead to another page asking user to enter their email address to receive the pldge form">Make A Pledge NOW</button>
+  </div>
+</form>
+
+<div class="form1">
+<form action="" method="POST">
+            <div name="select">
+                Donation Amount:
+                <select name="donation">
+<option value="3206180&templateId=937438">$1000 </option>
+<option value="3202718&templateId=937438">$2000</option>
+<option value="3202718&templateId=937438">$5000</option>
+                </select>
+            </div>
+            <div name="username" class="form2">
+                Username:
+                <input type="text" maxlength="12" name="username" value="Enter Username" onblur="if(this.value=='') this.value='Enter Username';" onfocus="if(this.value=='Enter Username') this.value='';"/>
+            </div>
+                            <div name="button">
+                <button type="submit" name="submit" value="Submit">Submit</button>
+            </div>
+  </form>
+<a href="http://www.plimus.com/ecommerce/buyers" target="_blank" title="Trusted and Secure Online Payment Processing via PLIMUS"><img src="https://www.plimus.com/images/icons_wizard/icons/cards/cards_type2_1-1.gif" border="0"></a>
+        </center>
+
+        <br>
+
+        <br>
+<center>
+
+<p><strong> <a href="./donatepp.php">Click here to Donate using PayPal</a> </strong></p>
+
+  </div> </div> </div></div>
+</div>
+
+<div class="form2">
+<form action="" method="GET">
+  <div name="email" class="email">
+                Email:
+                <input type="email"  name="email" value="Enter Email Address" onblur="if(this.value=='') this.value='Enter Username';" onfocus="if(this.value=='Enter Username') this.value='';"/>
+            </div>
+     <div name="button" class="getpledgeform">
+                <button type="submit" name="submit" value="Submit">Submit</button>
+            </div>
+  </form>
+
+
+
+        <br>
+
+        <br>
+<center>
+
+<p><strong> <a href="./donatepp.php">Click here to Donate using PayPal</a> </strong></p>
+
+  </div> </div> </div></div>
+</div>
+</body>
+
+
+
+<foot>
+
+</foot>
+</html>
